@@ -63,68 +63,68 @@ export const resumeData = {
   tools: [
     {
       name: "HTML",
-      src: "/icons/html.png",
+      src: "/images/icons/html.png",
     },
     {
       name: "CSS",
-      src: "/icons/css.png",
+      src: "/images/icons/css.png",
     },
     {
       name: "Js ES6",
-      src: "/icons/js.png",
+      src: "/images/icons/js.png",
     },
     {
       name: "React.js",
-      src: "/icons/react.png",
+      src: "/images/icons/react.png",
     },
     {
       name: "Node.js",
-      src: "/icons/node.png",
+      src: "/images/icons/node.png",
     },
     {
       name: "Next.js",
-      src: "/icons/next.png",
+      src: "/images/icons/next.png",
     },
     {
       name: "Redux",
-      src: "/icons/redux.png",
+      src: "/images/icons/redux.png",
     },
   ],
   projects: [
     {
       name: "Recall Remember",
       description: "Typescript | Next.js | Node.js | Redux",
-      src: "/projects/recallremember.png",
+      src: "/images/projects/recallremember.png",
       link: "https://recall-remember.vercel.app/",
     },
     {
       name: "Dhamaradio",
       description: "JavaScript | Next.js| Node.js | Redux | Chakra UI",
-      src: "/projects/dhmaradio.png",
+      src: "/images/projects/dhmaradio.png",
       link: "https://dhamaradio.vercel.app",
     },
     {
       name: "Dhamaradio Admin",
       description: "TypeScript | Next.js | Node.js | Express | PostgreSQL",
-      src: "/projects/dhmaradio-admin.png",
+      src: "/images/projects/dhmaradio-admin.png",
       link: "https://dhmaradio-admin.vercel.app/",
     },
     {
       name: "ntpon",
       description: "JavaScript | Next.js |",
-      src: "/projects/ntpon.png",
+      src: "/images/projects/ntpon.png",
       link: "https://www.ntpon.dev/",
     },
     {
       name: "Geton Technology",
       description: "HTML | CSS | Javascript | Laravel",
-      src: "/projects/dhmaradio-admin.png",
+      src: "/images/projects/dhmaradio-admin.png",
       link: "https://www.got.co.th/",
     },
     {
       name: "Kong Kaew Adventures",
       description: "Unity | C# | Firebase",
-      src: "/projects/kongkaew.jpg",
+      src: "/images/projects/kongkaew.jpg",
       link: "https://play.google.com/store/apps/details?id=com.ntpon.kongkaew2",
     },
   ],

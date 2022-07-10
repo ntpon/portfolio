@@ -23,7 +23,7 @@ function About({ description, hobby, contact }: IProps) {
           <Box width={{ base: "100%", md: "25%" }}>
             <Flex justifyContent={{ base: "center", md: "flex-start" }}>
               <Avatar
-                src='/profile.jpg'
+                src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
                 height='180px'
                 width='180px'
                 padding='3px'

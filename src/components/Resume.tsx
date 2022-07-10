@@ -39,7 +39,7 @@ function Resume({ education, experience }: IProps) {
           </Box>
           <Box width={{ base: "100%", md: "75%" }}>
             {education.map(({ date, school, degree }, index) => (
-              <Box mt={index === 0 ? "0" : "4"}>
+              <Box mt={index === 0 ? "0" : "4"} key={school}>
                 <Heading color='white' fontSize='3xl'>
                   {date}
                 </Heading>
@@ -67,7 +67,7 @@ function Resume({ education, experience }: IProps) {
           <Box width={{ base: "100%", md: "75%" }}>
             {experience.map(
               ({ date, company, position, description, technology }, index) => (
-                <Box mt={index === 0 ? "0" : "4"}>
+                <Box mt={index === 0 ? "0" : "4"} key={company}>
                   <Heading color='white' fontSize='3xl'>
                     {date}
                   </Heading>

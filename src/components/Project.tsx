@@ -29,7 +29,7 @@ function Project({ projects }: IProps) {
           <Flex padding='25px' justifyContent='center'>
             <Flex flexWrap='wrap'>
               {projects.map(({ name, description, link, src }) => (
-                <Box>
+                <Box key={name}>
                   <Link href={link} target='_blank'>
                     <Flex
                       width={{ base: "350px", md: "300px" }}
@@ -41,7 +41,7 @@ function Project({ projects }: IProps) {
                       cursor='pointer'
                     >
                       <Image
-                        src={src}
+                        src={`${process.env.PUBLIC_URL}/${src}`}
                         objectFit='contain'
                         height='100%'
                         width='100%'

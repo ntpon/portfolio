@@ -29,10 +29,11 @@ function Tools({ tools }: IProps) {
                   flexDir='column'
                   alignItems='center'
                   margin='1'
+                  key={name}
                 >
                   <Image
                     margin='1'
-                    src={src}
+                    src={`${process.env.PUBLIC_URL}/${src}`}
                     objectFit='contain'
                     height='100%'
                     width='50px'

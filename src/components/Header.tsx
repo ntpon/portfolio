@@ -43,7 +43,7 @@ function Header({ title, description, menu }: IProps) {
   return (
     <Box
       height='100vh'
-      bgImg='/bg.jpg'
+      bgImg={`${process.env.PUBLIC_URL}/images/bg.jpg`}
       bgPosition='center'
       bgSize='cover'
       bgRepeat='no-repeat'
@@ -71,7 +71,7 @@ function Header({ title, description, menu }: IProps) {
         animation={isSticky ? animation : "none"}
       >
         {menu.map(({ name, link }) => (
-          <Nav name={name} link={link} />
+          <Nav name={name} link={link} key={name} />
         ))}
       </Flex>
 

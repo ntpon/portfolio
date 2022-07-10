@@ -46,7 +46,7 @@ export const resumeData = {
     experience: [
       {
         date: "2019 - 2020",
-        company: "Knacx Corporation",
+        company: "Knacx Corporation Limited",
         position: "Web Developer",
         description: "Create CMS platform and backoffice system",
         technology: "HTML, CSS, Laravel, Node.js",

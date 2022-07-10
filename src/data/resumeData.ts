@@ -52,7 +52,7 @@ export const resumeData = {
         technology: "HTML, CSS, Laravel, Node.js",
       },
       {
-        date: "2019 - 2020",
+        date: "2018",
         company: "Bangkok Web Solution",
         position: "Programmer Internship",
         description: "Create and maintain website",

@@ -118,7 +118,7 @@ export const resumeData = {
     {
       name: "Geton Technology",
       description: "HTML | CSS | Javascript | Laravel",
-      src: "/images/projects/dhmaradio-admin.png",
+      src: "/images/projects/geton.png",
       link: "https://www.got.co.th/",
     },
     {

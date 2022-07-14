@@ -56,7 +56,7 @@ export const resumeData = {
         company: "Bangkok Web Solution",
         position: "Programmer Internship",
         description: "Create and maintain website",
-        technology: "Technology used : HTML, CSS, Javascript, PHP and MySQL",
+        technology: "HTML, CSS, Javascript, PHP and MySQL",
       },
     ],
   },

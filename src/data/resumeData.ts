@@ -37,17 +37,20 @@ export const resumeData = {
         degree:
           "Bachelor of Science in Technical Education | Computer Technology",
       },
-      {
-        date: "2012 - 2015",
-        school: "Phetchaburi Vocational College",
-      },
     ],
 
     experience: [
       {
+        date: "2022 - current",
+        company: "TOPGUN Corporation Limited",
+        position: "Software Developer",
+        description: "Create new feature and maintain website",
+        technology: "React.js, Next.js, Vue.js, Node.js,TypeScript, Java",
+      },
+      {
         date: "2019 - 2020",
         company: "Knacx Corporation Limited",
-        position: "Web Developer",
+        position: "Software Developer",
         description: "Create CMS platform and backoffice system",
         technology: "HTML, CSS, Laravel, Node.js",
       },
@@ -55,7 +58,7 @@ export const resumeData = {
         date: "2018",
         company: "Bangkok Web Solution",
         position: "Programmer Internship",
-        description: "Create and maintain website",
+        description: "Create new feature and maintain website",
         technology: "HTML, CSS, Javascript, PHP and MySQL",
       },
     ],
@@ -128,4 +131,4 @@ export const resumeData = {
       link: "https://play.google.com/store/apps/details?id=com.ntpon.kongkaew2",
     },
   ],
-}
+};

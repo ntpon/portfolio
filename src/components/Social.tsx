@@ -6,7 +6,7 @@ function Social() {
   return (
     <Flex alignItems="center" height="100%" zIndex={1}>
       <Box marginX="2">
-        <a href="https://twitter.com/ntpon" target="_blank">
+        <a href="https://twitter.com/ntpon_" target="_blank">
           <Icon
             as={FaTwitter}
             fontSize="3xl"

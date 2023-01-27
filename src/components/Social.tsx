@@ -16,6 +16,7 @@ function Social() {
               color: "white",
             }}
           />
+          {""}
         </a>
       </Box>
       <Box marginX="2">
